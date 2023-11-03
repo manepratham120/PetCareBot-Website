@@ -1,0 +1,75 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+.text-container {
+    margin-bottom: 20px;
+    background-color: lightcyan;
+    width: 100%;
+}
+
+.tb1{
+    font-weight: 900;
+    font-size: xx-large;
+    color : #0E1D54;
+}
+.tb2{
+    font-weight: 650;
+    font-size: large;
+    color: #597AAE;
+}
+  
+.image-container {
+    position: relative;
+    
+}
+  
+.bg-image {
+    width: 100%;
+    height: auto;
+}
+  
+.searchButton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0E1D54; /* Change to your preferred button style */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+  
+.feature-cards-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    margin-top: 20px;
+}
+  
+.feature-card {
+    
+    width: 100%; /* Adjust the width as needed */
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.searchButton{
+    margin-right: 500px;
+    margin-bottom: 200px;
+    background-color: #0E1D54;
+    opacity: 50%;
+}
+.searchButton:hover{
+    opacity:100%;
+    
+}
+

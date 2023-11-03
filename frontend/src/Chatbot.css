@@ -1,0 +1,110 @@
+.chatbot-container {
+  width: 375px; /* Adjust the width as needed */
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+
+.chatbot-header {
+  background-color: #032548;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbot-header img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+
+.chatbot-header h2 {
+  margin: 0;
+}
+
+.chatbot-content {
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.user-message {
+  background-color: #47a8d2;
+  color: #fff;
+  float: right;
+}
+
+.user-message img {
+  margin-right: 5px;
+}
+
+.bot-message {
+  background-color: #f2f2f2;
+  float: left;
+}
+
+.bot-message img {
+  margin-left: 5px;
+}
+
+.chatbot-input {
+  padding: 10px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  width: 25%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1c5795;
+  color: #fff;
+  cursor: pointer;
+}
+
+.image-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* To place it behind other content */
+}
+
+.bg {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* Rest of your existing CSS for chatbot styles */

@@ -1,0 +1,10 @@
+.xyz {
+    background-color: gray;
+    border: none;
+    padding: 8px 20px; /* Adjust padding for better fit */
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+

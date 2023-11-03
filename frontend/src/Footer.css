@@ -1,0 +1,20 @@
+.footer{
+    display:flex;
+    width: 100%;
+    height: 40px;
+    padding-left: 350px;
+    
+    background-color: lightcyan ;
+    font-weight: 700;
+
+}
+.list{
+    display: flex;
+}
+.lists{
+    padding: 10px;
+    color: #0E1D54;
+}
+a{
+    color: #0E1D54;
+}
